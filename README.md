@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# Dashboard
 
-## Project info
+A modern, responsive dashboard built with Vite, React/TypeScript, TailwindCSS, and Supabase.
 
-**URL**: https://lovable.dev/projects/2b1c8c7d-b82a-41ad-88a1-f812cc1c225a
+## 🚀 Features
 
-## How can I edit this code?
+Responsive dashboard layout
 
-There are several ways of editing your application.
+Authentication & database powered by Supabase
 
-**Use Lovable**
+TailwindCSS for styling
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2b1c8c7d-b82a-41ad-88a1-f812cc1c225a) and start prompting.
+TypeScript support
 
-Changes made via Lovable will be committed automatically to this repo.
+ESLint & Prettier for code quality
 
-**Use your preferred IDE**
+Vite for fast development and build
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+Frontend: React, Vite, TypeScript
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Styling: TailwindCSS
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Backend/DB: Supabase
 
-# Step 3: Install the necessary dependencies.
-npm i
+Build Tools: PostCSS, ESLint
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+
+## 📂 Project Structure
+
+Dashboard-main/
+ ├── public/            # Static assets
+ ├── src/               # Main application code
+ ├── supabase/          # Supabase config & setup
+ ├── index.html         # Entry point
+ ├── package.json       # Dependencies
+ └── vite.config.ts     # Vite configuration
+
+## ⚡ Getting Started
+
+1. Clone the repo
+
+git clone https://github.com/your-username/Dashboard-main.git
+cd Dashboard-main
+
+2. Install dependencies
+
+npm install
+# or
+bun install
+
+3. Setup Environment
+
+Create a .env file in the root directory and add your Supabase keys:
+
+VITE_SUPABASE_URL=your-url
+VITE_SUPABASE_ANON_KEY=your-anon-key
+
+4. Run the app
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+5. Build for production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2b1c8c7d-b82a-41ad-88a1-f812cc1c225a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+npm run build
