@@ -17,13 +17,14 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 225 73% 57%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 225 73% 52%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 210 40% 98%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
     --accent: 210 40% 96.1%;
@@ -34,9 +35,47 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 225 73% 57%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Dashboard specific colors */
+    --sidebar-bg: 225 73% 57%;
+    --sidebar-text: 0 0% 100%;
+    --sidebar-text-muted: 225 20% 80%;
+    
+    /* Success metrics */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --success-light: 142 69% 58%;
+    
+    /* Warning metrics */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --warning-light: 48 96% 89%;
+    
+    /* Info metrics */
+    --info: 217 91% 60%;
+    --info-foreground: 0 0% 100%;
+    --info-light: 214 95% 93%;
+
+    /* Chart colors */
+    --chart-1: 142 76% 36%;
+    --chart-2: 346 84% 61%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 225 73% 57%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(225 73% 57%), hsl(225 73% 67%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px hsl(225 73% 57% / 0.1), 0 2px 4px -1px hsl(225 73% 57% / 0.06);
+    --shadow-elevated: 0 10px 15px -3px hsl(225 73% 57% / 0.1), 0 4px 6px -2px hsl(225 73% 57% / 0.05);
+    
+    /* Animations */
+    --animation-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --animation-bounce: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
