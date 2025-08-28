@@ -42,7 +42,8 @@ Dashboard-main/
 
 1. Clone the repo
 
-git clone https://github.com/your-username/Dashboard-main.git
+git clone 
+https://github.com/Sudarshanganwani9/Dashboard
 cd Dashboard-main
 
 2. Install dependencies
